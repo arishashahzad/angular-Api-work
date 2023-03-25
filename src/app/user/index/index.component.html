@@ -1,0 +1,21 @@
+<p>index works!</p>
+
+
+
+<div class="container">
+    <table class="table table-border">
+<tr>
+    <th>User Id</th>
+    <th>User Name</th>
+    <th>User Fullname</th>
+    <th>User Email</th>
+</tr>
+
+<tr *ngFor="let item of body">
+    <td>{{item.User_id}}</td>
+    <!-- <td>{{item.User_name}}</td>
+    <td>{{item.User_fullname}}</td>
+    <td>{{item.User_email}}</td> -->
+</tr>
+    </table>
+</div>
